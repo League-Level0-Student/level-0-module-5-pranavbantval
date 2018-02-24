@@ -61,8 +61,8 @@ public static void main(String[] args) {
 	System.out.print("\n");
 }*/
 	
-for (int b = 0; b < 10; b++) {
-	for (int c = 1; c < 10; c++) {
+/*for (int b = 0; b < 10; b++) {
+	for (int c = 1; c < 11; c++) {
 		if(b==0) {
 		System.out.print(c + " ");
 	}
@@ -81,8 +81,43 @@ for (int b = 0; b < 10; b++) {
 		else if(b==5) {
 			System.out.print(c+50 + " ");
 		}
+		else if(b==6) {
+			System.out.print(c + 60 + " ");
+		}
+		else if(b==7) {
+			System.out.print(c + 70 + " ");
+		}
+		else if(b==8) {
+			System.out.print(c + 80 + " ");
+		}
+		else if(b==9) {
+			System.out.print(c + 90 + " ");
+		}
+		
+		
 }
 	System.out.print("\n");
-}
+}*/
+	
+	/*for (int d = 1; d <7; d++) {
+		
+			for (int e = 0; e < d; e++) {
+				
+			
+			System.out.print("*");
+		}
+			System.out.println("");
+			}*/
+
+	for (int g = 0; g < 1; g++) {
+		int h = 100;
+		for (int f = 0; f < 100; f++) {
+			System.out.println(h);
+			h--;
+		}
+
+	}
+	
+	
 }
 }
